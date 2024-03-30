@@ -1,12 +1,12 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
-    $email = $_POST["email"];
+    $Username = $_POST["Username"];
     $password = $_POST["password"];
 
     // Prepare data to be saved in JSON format
     $data = array(
-        'email' => $email,
+        'Username' => $Username,
         'password' => $password
     );
 
